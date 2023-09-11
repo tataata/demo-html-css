@@ -1,0 +1,12 @@
+body {
+    background-color: grey;
+}
+
+.navbar ul {
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+}
