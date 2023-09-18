@@ -36,10 +36,11 @@ article {
     outline: 10px solid lightblue;
     margin: 20px 0;
 }
- article img {
+
+article img {
     width: 48%;
     margin: 0 0 0 2%;
- }
+}
 
 .float-markup {
     overflow: auto;
@@ -52,7 +53,6 @@ article {
 
 .float-markup img {
     float: right;
-    
 }
 
 .flexbox-markup {
