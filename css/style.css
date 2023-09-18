@@ -1,5 +1,24 @@
-body {
-    background-color: grey;
+/* Common layout */
+* {
+    box-sizing: border-box;
+}
+
+header,
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px;
+    outline: 10px solid pink;
 }
 
 .navbar ul {
@@ -9,4 +28,8 @@ body {
 .navbar li {
     list-style: none;
     display: inline-block;
+}
+
+main {
+    outline: 10px solid blue;
 }
