@@ -21,6 +21,7 @@ img {
     outline: 10px solid pink;
 }
 
+/* Navigation */
 .navbar ul {
     padding: 0;
 }
@@ -30,6 +31,37 @@ img {
     display: inline-block;
 }
 
-main {
-    outline: 10px solid blue;
+/* Articles */
+article {
+    outline: 10px solid lightblue;
+    margin: 20px 0;
+}
+ article img {
+    width: 48%;
+    margin: 0 0 0 2%;
+ }
+
+.float-markup {
+    overflow: auto;
+}
+
+.float-markup .headline {
+    display: inline-block;
+    overflow: auto;
+}
+
+.float-markup img {
+    float: right;
+    
+}
+
+.flexbox-markup {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flexbox-markup img {
+    order: 3;
+    flex-grow: 0;
 }
