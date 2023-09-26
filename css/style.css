@@ -18,7 +18,6 @@ img {
 .header {
   text-align: center;
   padding: 40px;
-  outline: 10px solid pink;
 }
 
 /* Navigation */
@@ -33,7 +32,6 @@ img {
 
 /* Articles */
 article {
-  outline: 10px solid lightblue;
   margin: 20px 0;
 }
 
